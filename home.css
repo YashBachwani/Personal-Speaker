@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    overflow-x: clip;
+    
+}
+body{
+    text-align: center;
+    margin-top: 300px;
+    background-image: url('hero.webp');
+    background-repeat: repeat-y;
+    background-size: cover;
+    height:80vh;
+    width:100vw;
+}
+textarea{
+    border:5px solid white;
+}
+textarea:hover{
+    filter:drop-shadow(1px 1px 10px whitesmoke);
+    transition: ease-in-out 0.5s;
+}
+button{
+    height:40px;
+    width:100px;
+    text-align: center;
+    background-color: rgb(0, 158, 0);
+    border:none;
+    border-radius: 15px;
+    color: rgb(211, 210, 210);
+}
+button:hover{
+    background-color: rgb(2, 63, 2);
+    color:white;
+    filter:drop-shadow(1px 1px 10px rgb(0, 158, 0));
+    cursor:pointer;
+    transition: ease-in-out 0.5s;
+}
